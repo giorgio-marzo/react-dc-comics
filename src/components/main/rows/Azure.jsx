@@ -7,10 +7,11 @@ const Azure = () => {
             <div className=" azure zone">
                 <div className="container">
                     <ul className='d-flex space-bet al-center'>
-                        <li><a href="#"><img className='icone al-center' src="src/assets/img/buy-comics-digital-comics.png" alt="" />DIGITAL COMICS</a></li>
-                        <li><a className='active' href="#">DC MERCH</a></li>
-                        <li><a href="#">SUB</a></li>
-                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#" className=' d-flex al-center'><img className='icone  ' src="src/assets/img/buy-comics-digital-comics.png" alt="" /><div className='testi'>DIGITAL COMICS</div></a></li>
+                        <li><a href="#" className=' d-flex al-center'><img className='icone  ' src="src/assets/img/buy-comics-merchandise.png" alt="" /><div className='testi'>DC MERCHANDISE</div></a></li>
+                        <li><a href="#" className=' d-flex al-center'><img className='icone  ' src="src/assets/img/buy-comics-subscriptions.png" alt="" /><div className='testi'>SUBSCRIPTION</div></a></li>
+                        <li><a href="#" className=' d-flex al-center f-end'><img className='icone  ' src="src/assets/img/buy-comics-shop-locator.png" alt="" /><div className='testi'>SHOP</div></a></li>
+                        <li><a href="#" className=' d-flex al-center f-end'><img className='icone  ' src="src/assets/img/buy-dc-power-visa.svg" alt="" /><div className='testi'>SHOP</div></a></li>
                     </ul>
                 </div>
 

@@ -5,7 +5,7 @@ const header = () => {
 
         <header>
             <div className="container">
-                <div className="row d-flex al-center">
+                <div className="row d-flex al-center space-bet">
                     <div className="col-50">
                         <img src="src/assets/img/dc-logo.png" alt="Logo" />
                     </div>

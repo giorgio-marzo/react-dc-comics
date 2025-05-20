@@ -21,7 +21,7 @@ body {
 }
 
 .space-bet {
-  justify-content: space-between
+  justify-content: space-around
 }
 
 .al-center {
@@ -49,8 +49,8 @@ header li a {
 
 header ul li a:hover,
 header ul li a.active {
-  border-bottom: 5px solid #587DEC;
-  color: #587DEC;
+  border-bottom: 5px solid #0C7CEC;
+  color: #0C7CEC;
 
 }
 
@@ -71,13 +71,14 @@ header ul li a.active {
 }
 
 .azure {
-  background-color: #587DEC;
+  background-color: #0C7CEC;
 
 }
 
 .icone {
-  width: 50px;
-  height: 50px;
+  width: 25%;
+  height: 25%;
+
 }
 
 
@@ -94,4 +95,16 @@ main li a {
 header li,
 main li {
   list-style: none;
+}
+
+.f-end {
+  justify-content: flex-end;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.testi {
+  margin: 0px 30px 0px 20px;
 }
