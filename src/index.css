@@ -93,8 +93,15 @@ header ul li a.active {
 /* LIST */
 
 .card-comic {
-  width: calc(100% /6);
+  width: calc(100% /6 - 40px);
   height: auto;
+  margin: 20px;
+
+
+
+}
+
+.wrap {
   flex-wrap: wrap;
 }
 
