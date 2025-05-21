@@ -5,10 +5,11 @@ const List_zone = () => {
 
         <list_footer>
             <div className="bg-image">
-                <div className="container">
-                    <div className="row d-flex al-center space-bet">
 
-                    </div>
+                <div className="container-footer">
+                    <div className="bg-logo"></div>
+
+                    <div className="row d-flex al-center space-bet"></div>
                 </div>
             </div>
 

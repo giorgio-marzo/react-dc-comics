@@ -1,11 +1,14 @@
-import React from 'react'
+import ListComics from "./comics/ListComics"
 
 const Grey = () => {
     return (
 
         <grey>
             <div className=" grey zone">
-                <div className="container">--&#62; Content goes here &#60;--</div>
+                <div className="container">
+                    <ListComics />
+
+                </div>
 
             </div>
 
