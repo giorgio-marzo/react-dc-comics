@@ -165,7 +165,12 @@ const ListComics = () => {
         <div>
             <h2>ListComics</h2>
             <div className="comic-list d-flex wrap">
-                <ComicCard titolo={comics[0].title} imagine={comics[0].thumb} />
+                {comics.map((fumetto) => {
+                    return (
+                        <ComicCard titolo={fumetto.title} imagine={fumetto.thumb} />
+                    )
+                })}
+                {/*<ComicCard titolo={comics[0].title} imagine={comics[0].thumb} />
                 <ComicCard titolo={comics[1].title} imagine={comics[1].thumb} />
                 <ComicCard titolo={comics[2].title} imagine={comics[2].thumb} />
                 <ComicCard titolo={comics[3].title} imagine={comics[3].thumb} />
@@ -176,7 +181,7 @@ const ListComics = () => {
                 <ComicCard titolo={comics[8].title} imagine={comics[8].thumb} />
                 <ComicCard titolo={comics[9].title} imagine={comics[9].thumb} />
                 <ComicCard titolo={comics[10].title} imagine={comics[10].thumb} />
-                <ComicCard titolo={comics[11].title} imagine={comics[11].thumb} />
+                <ComicCard titolo={comics[11].title} imagine={comics[11].thumb} />*/}
             </div>
 
         </div>
